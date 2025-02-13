@@ -3,6 +3,7 @@ name = "personio-rs"
 authors = ["Bayram K", "Bayram K <bkuliyev@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 [dependencies]
 reqwest = "0.12.12"
