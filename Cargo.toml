@@ -5,6 +5,8 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 description = "Async Rust client for the Personio HR management system."
+
+[package.metadata]
 repository = "https://github.com/fade2black/personio-rs"
 
 [dependencies]
