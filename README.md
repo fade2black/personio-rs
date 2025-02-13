@@ -12,7 +12,7 @@ Add this to your `Cargo.toml`:
 personio-rs = "0.1.0"
 tokio = { version = "1.0", features = ["full"] }
 ```
-To get auth token using:
+To get auth token:
 
 ```rust
 use personio_rs::client::Client;
