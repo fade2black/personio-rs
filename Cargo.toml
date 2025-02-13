@@ -4,6 +4,8 @@ authors = ["Bayram K", "Bayram K <bkuliyev@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "Async Rust client for the Personio HR management system."
+repository = "https://github.com/fade2black/personio-rs"
 
 [dependencies]
 reqwest = "0.12.12"
