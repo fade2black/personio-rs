@@ -1,7 +1,7 @@
 [package]
 name = "personio-rs"
 authors = ["Bayram K", "Bayram K <bkuliyev@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Async Rust client for the Personio HR management system."
