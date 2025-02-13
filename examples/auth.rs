@@ -8,7 +8,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let client_id = env::var("CLIENT_ID")?;
     let client_secret = env::var("CLIENT_SECRET")?;
 
-    let client = Client::new("PAIR_FINANCE", "TEST_APP")?;
+    let client = Client::new("MY_COMPANY", "TEST_APP")?;
     let creds = client.auth(&client_id, &client_secret).await?;
 
     println!("{creds}");
